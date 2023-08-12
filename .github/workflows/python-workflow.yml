@@ -10,6 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
+        fail-fast: false
         version: ["3.10","3.9", "3.8"]
         platform: [ubuntu-latest,windows-latest, macos-latest]
         include: 

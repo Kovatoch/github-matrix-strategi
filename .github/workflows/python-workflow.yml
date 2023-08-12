@@ -14,10 +14,10 @@ jobs:
         platform: [ubuntu-latest,windows-latest, macos-latest]
         include: 
           - platform: ubuntu-latest
-          - version: 3.6
+            version: 3.6
         exclude:
           - platform: windows-latest
-          - version: 3.10
+            version: 3.10
 
     #----------------------------------------------#
     # Add your matrix strategy configuration here  #
